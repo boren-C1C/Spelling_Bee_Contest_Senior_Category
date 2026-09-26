@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG Spelling Bee Contest — Senior Category</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+  <header>
+    <div class="badge">AG</div>
+    <div>
+      <h1>AG Spelling Bee Contest</h1>
+      <h2>Senior Category – Word List Pronouncer</h2>
+    </div>
+  </header>
+
+  <section class="card voice">
+    <h3>Voice</h3>
+    <div class="voice-buttons">
+      <button id="browserVoice" class="active">Browser voice</button>
+      <button id="testVoice">Test voice</button>
+    </div>
+    <p>Uses your browser's text-to-speech voice. Microsoft Edge normally provides good English voices.</p>
+    <label>Speed <input type="range" id="speed" min="0.5" max="1.5" step="0.1" value="0.9">
+      <span id="speedValue">0.9×</span>
+    </label>
+  </section>
+
+  <section class="card contest">
+    <div class="status">
+      <span id="counter">0 / 10 words drawn</span>
+      <span id="remaining">10 remaining</span>
+    </div>
+    <div class="word-box">
+      <div id="word" class="word hidden">Click “Draw Word”</div>
+      <div id="pos" class="pos hidden"></div>
+      <div id="definition" class="definition hidden"></div>
+    </div>
+    <div class="actions">
+      <button id="draw" class="primary">🎲 Draw Word</button>
+      <button id="pronounce">🔊 Pronounce</button>
+      <button id="slow">🐢 Slowly</button>
+      <button id="reveal">👁 Reveal spelling</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>New contest</h3>
+    <p>Makes all words available to draw again. Use this only before a new contest.</p>
+    <button id="fresh" class="danger">Start fresh for a new contest</button>
+  </section>
+
+  <section class="card settings">
+    <h3>Contest settings</h3>
+    <label><input type="checkbox" id="hideSpelling"> Hide the spelling until I click Reveal spelling</label>
+    <label><input type="checkbox" id="hideInfo"> Hide the part of speech and definition too</label>
+  </section>
+
+  <footer>
+    <p><b>Keyboard:</b> D draw · P pronounce · S slowly · R reveal</p>
+    <p><b>Word data:</b> loaded from <code>words.json</code>, outside the HTML file.</p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

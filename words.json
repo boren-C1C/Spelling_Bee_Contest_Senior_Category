@@ -1,0 +1,52 @@
+[
+  {
+    "word": "abundant",
+    "partOfSpeech": "adjective",
+    "definition": "Existing or available in large quantities; more than enough."
+  },
+  {
+    "word": "achievement",
+    "partOfSpeech": "noun",
+    "definition": "Something successfully accomplished, especially through effort."
+  },
+  {
+    "word": "beautiful",
+    "partOfSpeech": "adjective",
+    "definition": "Having qualities that give great pleasure to the senses or mind."
+  },
+  {
+    "word": "challenge",
+    "partOfSpeech": "noun",
+    "definition": "A difficult task or situation that requires effort to overcome."
+  },
+  {
+    "word": "determination",
+    "partOfSpeech": "noun",
+    "definition": "Firmness of purpose; the quality of continuing to try to achieve something."
+  },
+  {
+    "word": "environment",
+    "partOfSpeech": "noun",
+    "definition": "The surroundings or conditions in which a person, animal, or plant lives."
+  },
+  {
+    "word": "extraordinary",
+    "partOfSpeech": "adjective",
+    "definition": "Very unusual or remarkable."
+  },
+  {
+    "word": "knowledge",
+    "partOfSpeech": "noun",
+    "definition": "Information and understanding gained through learning or experience."
+  },
+  {
+    "word": "responsibility",
+    "partOfSpeech": "noun",
+    "definition": "A duty or obligation to deal with something or someone."
+  },
+  {
+    "word": "successful",
+    "partOfSpeech": "adjective",
+    "definition": "Having achieved a desired result or goal."
+  }
+]
